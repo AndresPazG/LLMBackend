@@ -3,7 +3,7 @@ from openai import OpenAI
 from Interface.chatInterfaces import InputMessage, ChatCompletionResponse
 
 router=APIRouter()
-client=OpenAI(api_key='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',
+client=OpenAI(api_key='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',
               base_url='https://openrouter.ai/api/v1')
 
 @router.post("/ai-chat")
